@@ -2512,7 +2512,12 @@ ul.contact {
   display: flex;
   list-style: none;
   grid-gap: 12px;
+  padding: unset;
   flex-direction: column;
+}
+
+ul.contact li {
+  padding-left: unset;
 }
 
 table.alt tbody tr td {
